@@ -3,6 +3,21 @@
     src: url(./fonts/Norse-Bold.otf);
 }
 
+@font-face {
+    font-family: 'Roboto-medium';
+    src: url(./fonts/Roboto-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto-light';
+    src: url(./fonts/Roboto-Light.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto-regular';
+    src: url(./fonts/Roboto-Regular.ttf);
+}
+
 body {
     margin: 0;
 }
@@ -53,7 +68,7 @@ footer {
 }
 
 a:visited,
-a {
+.footer-link {
     text-decoration: none;
     color: white;
     font-weight: bold;
@@ -65,4 +80,53 @@ a {
 
 .right {
     width: 60%;
+    margin-left: auto;
+    background-color: rgba(238, 238, 238, 0.521);
+}
+
+.top-text {
+    font-size: 24px;
+    width: 80%;
+    margin: 10% 20% 48px 6%;
+    font-family: 'Roboto-medium', sans-serif;
+}
+
+.form {
+    box-shadow: 0 4px 10px gray;
+    height: 80%;
+    background-color: white;
+    margin-bottom: 4%;
+}
+
+button {
+    background-color: #596D48;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    padding: 14px 48px;
+    border: none;
+    font-size: 16px;
+    margin-left: 6%;
+    margin-bottom: 0.5%;
+    box-shadow: 4px 4px 6px rgba(128, 128, 128, 0.5);
+}
+
+button:hover {
+    transform: scale(1.1, 1.1);
+    cursor: pointer;
+}
+
+.login-text {
+    margin-left: 6%;
+    font-family: 'Roboto-Regular', sans-serif;
+}
+
+#log-in {
+    color: #596D48;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#log-in:hover {
+    cursor: pointer;
 }
