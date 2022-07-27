@@ -20,6 +20,7 @@
 
 body {
     margin: 0;
+    background-color: rgba(238, 238, 238, 0.521);
 }
 
 .page {
@@ -81,21 +82,59 @@ a:visited,
 .right {
     width: 60%;
     margin-left: auto;
-    background-color: rgba(238, 238, 238, 0.521);
 }
 
 .top-text {
     font-size: 24px;
     width: 80%;
-    margin: 10% 20% 48px 5%;
+    margin: 8% 20% 48px 5%;
     font-family: 'Roboto-medium', sans-serif;
 }
 
 .form {
     box-shadow: 0 4px 10px rgba(128, 128, 128, 0.432);
-    height: 80%;
+    height: 50%;
     background-color: white;
     margin-bottom: 4%;
+}
+
+.big-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    font-family: 'Roboto-regular', sans-serif;
+    opacity: 0.8;
+    font-size: 12px;
+}
+
+.names,
+.contacts,
+.passwords {
+    display: flex;
+    gap: 100px;
+    padding: 8px;
+}
+
+.first-name,
+.last-name,
+.email,
+.phone-number,
+.password {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    opacity: 0.8;
+}
+
+input {
+    padding: 6px 40px 6px 6px;
+    font-size: 14px;
+    border: 1px solid #dbdcdf;
+    border-radius: 4px;
+}
+
+input:focus {
+    box-shadow: 2px 2px 6px rgba(128, 128, 128, 0.637);
 }
 
 h2 {
@@ -136,4 +175,20 @@ button:hover {
 
 #log-in:hover {
     cursor: pointer;
+}
+
+
+
+/* To remove arrow scroll keys from the phone number input field */
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
 }
