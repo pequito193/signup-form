@@ -23,54 +23,44 @@
                     <p>This is not a real online service! You need to visit Colombia, right now! Sign up to get started.</p>
                     <p>You <em>know</em> you want to.</p>
                 </div>
-                <div class="form">
-                    <h2>Let's do this!</h2>
-                    <div class="big-container">
-                        <div class="names">
-                            <div class="first-name">
-                                <form>
-                                    <p>FIRST NAME</p>
-                                    <input id="firstname" name="firstname" type="text" placeholder="Thor" maxlength="24" required>
-                                </form>
-                            </div>
-                            <div class="last-name">
-                                <form>
-                                    <p>LAST NAME</p>
-                                    <input id="lastname" name="lastname" type="text" placeholder="Odinson" maxlength="24" required>
-                                </form>
-                            </div>
-                        </div>
-                        <div class="contacts">
-                            <div class="email">
-                                <form>
+                <form action="index.html" method="get">
+                    <div class="form">
+                        <h2>Let's do this!</h2>
+                            <div class="big-container">
+                                <div class="names">
+                                    <div class="first-name">
+                                        <p>FIRST NAME</p>
+                                        <input id="firstname" name="firstname" type="text" placeholder="Thor" maxlength="24" required>
+                                    </div>
+                                    <div class="last-name">
+                                        <p>LAST NAME</p>
+                                        <input id="lastname" name="lastname" type="text" placeholder="Odinson" maxlength="24" required>
+                                    </div>
+                                </div>
+                                <div class="contacts">
+                                    <div class="email">
                                     <p>EMAIL</p>
                                     <input id="email" name="email" type="email" required>
-                                </form>
+                                    </div>
+                                    <div class="phone-number">
+                                        <p>PHONE NUMBER</p>
+                                        <input id="phonenumber" name="phonenumber" type="number" required>
+                                    </div>
+                                </div>
+                                <div class="passwords">
+                                    <div class="password">
+                                        <p>PASSWORD</p>
+                                        <input id="password" name="password" type="password" required>
+                                    </div>
+                                    <div class="password">
+                                        <p>CONFIRM PASSWORD</p>
+                                        <input id="password" name="password" type="password" required>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="phone-number">
-                                <form>
-                                    <p>PHONE NUMBER</p>
-                                    <input id="phonenumber" name="phonenumber" type="number" required>
-                                </form>
-                            </div>
-                        </div>
-                        <div class="passwords">
-                            <div class="password">
-                                <form>
-                                    <p>PASSWORD</p>
-                                    <input id="password" name="password" type="password" required>
-                                </form>
-                            </div>
-                            <div class="password">
-                                <form>
-                                    <p>CONFIRM PASSWORD</p>
-                                    <input id="password" name="password" type="password" required>
-                                </form>
-                            </div>
-                        </div>
                     </div>
-                </div>
-                <button id="sign-up" type="submit">Create Account</button>
+                    <button id="sign-up" type="submit">Create Account</button>
+                </form>
                 <p class="login-text">Already have an account? <a id="log-in">Log in</a></p>
             </div>
         </div>
