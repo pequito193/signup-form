@@ -1,3 +1,4 @@
-# Simple example of a sign-up form page. Currently has no interactivity.
+# Signup Form
+Check it out at:
 
-# Live: https://pequito193.github.io/signup-form/
+https://pequito193.github.io/signup-form/
